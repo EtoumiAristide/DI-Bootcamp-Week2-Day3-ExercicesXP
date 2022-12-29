@@ -26,6 +26,6 @@ console.log("The second tenant is " + building.nameOfTenants[1] + " and he has "
 
 //5-Check if the sum of Sarah’s and David’s rent is bigger than Dan’s rent. If it is, than increase Dan’s rent to 1200.
 if (building.numberOfRoomsAndRent.sarah[1] + building.numberOfRoomsAndRent.david[1] > building.numberOfRoomsAndRent.dan[1]) {
-    building.numberOfRoomsAndRent.david[1] = 1200;
+    building.numberOfRoomsAndRent.david[1] += 1200;
 }
 //console.log(building.numberOfRoomsAndRent.david[1]);
